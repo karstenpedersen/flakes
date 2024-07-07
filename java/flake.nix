@@ -19,7 +19,6 @@
     rec {
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
-          gnumake
           jdk
           gradle
           maven

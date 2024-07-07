@@ -13,7 +13,6 @@
     rec {
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
-          gnumake
           go
           air
           gotools
